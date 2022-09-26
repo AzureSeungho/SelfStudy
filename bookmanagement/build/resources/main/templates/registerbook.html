@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function check(){
+            if(f1.name.value == ""){
+                alert('책 이름이 입력되지 않았습니다!');
+                f1.name.focus();
+                return false;
+            }
+            if(f1.author.value == ""){
+                alert('저자가 입력되지 않았습니다!');
+                f1.author.focus();
+                return false;
+            }
+            if(f1.publisher.value == ""){
+                alert('출판사가 입력되지 않았습니다!');
+                f1.publisher.focus();
+                return false;
+            }
+            if(f1.date.value == ""){
+                alert('등록일이 입력되지 않았습니다!');
+                f1.date.focus();
+                return false;
+            }
+            else{
+                alert('입력이 완료되었습니다. 메인 페이지로 이동합니다.')
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<form name="f1" action="/re" method="post" onsubmit="return check();">
+    <table border="1">
+        <tr>
+            <td>책 이름</td>
+            <td><input type="text" value="" name="name"></td>
+        </tr>
+        <tr>
+            <td>저자</td>
+            <td><input type="text" value="" name="author"></td>
+        </tr>
+        <tr>
+            <td>출판사</td>
+            <td><input type="text" value="" name="publisher"></td>
+        </tr>
+        <tr>
+            <td>등록일</td>
+            <td><input type="text" value="" name="date"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="등록">
+            <input type="reset" value="다시쓰기">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
