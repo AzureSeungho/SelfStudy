@@ -7,3 +7,4 @@ Run ViewApplication.java, type '127.0.0.1:8020/cover' to see my project!(korean)
 - 2022-10-12 Passed about 1 week, finally fully updated question program! I changed file name newest to question.
 - Download question.zip and open it at Intellij and Run QuestionApplication.java, type '127.0.0.1:8010/Main' to see my Work!(Korean)
 - 2022-10-13 Add more function, Confirm when delete
+- 2022-10-14 Updated some css
