@@ -8,3 +8,4 @@ Run ViewApplication.java, type '127.0.0.1:8020/cover' to see my project!(korean)
 - Download question.zip and open it at Intellij and Run QuestionApplication.java, type '127.0.0.1:8010/Main' to see my Work!(Korean)
 - 2022-10-13 Add more function, Confirm when delete
 - 2022-10-14 Updated some css
+- 2022-10-18 Fully Updated!
